@@ -5,6 +5,7 @@ import Button from './components/Button';
 import ImageViewer from './components/ImageViewer';
 import * as ImagePicker from 'expo-image-picker';
 import { useState } from 'react';
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 const PlaceholderImage = require("./assets/images/background-image.png");
 
